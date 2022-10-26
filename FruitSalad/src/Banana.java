@@ -10,7 +10,7 @@ public class Banana extends Fruit implements Peelable{
     @Override
     public boolean hasPeel()
     {
-        if(Peel==true)
+        if(Peel)
             return true;
         return false;
     }

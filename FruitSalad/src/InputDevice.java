@@ -1,7 +1,7 @@
 public class InputDevice
 {
 
-     Fruit[] readFruit()
+     static Fruit[] readFruit()
     {
 
         Fruit[] fructe = new Fruit[5];

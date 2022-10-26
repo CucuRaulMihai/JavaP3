@@ -14,7 +14,7 @@ public class Mango extends Fruit implements Peelable,SeedRemovable {
     @Override
     public boolean hasPeel()
     {
-        if(Peel == true)
+        if(Peel)
             return true;
         return false;
     }
@@ -29,7 +29,7 @@ public class Mango extends Fruit implements Peelable,SeedRemovable {
     @Override
     public boolean hasSeeds()
     {
-        if(Seed == true)
+        if(Seed)
             return true;
         return false;
     }

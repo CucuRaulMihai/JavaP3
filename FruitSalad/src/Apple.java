@@ -10,7 +10,7 @@ public class Apple extends Fruit implements SeedRemovable{
     @Override
     public boolean hasSeeds()
     {
-        if(Seed == true)
+        if(Seed)
             return true;
         return false;
     }
